@@ -7696,126 +7696,6 @@
 				)
 			)
 		)
-		(symbol "power:+5VD"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "+5VD"
-				(at 0 3.556 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+5VD\""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "+5VD_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+5VD_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:GND"
 			(power)
 			(pin_numbers hide)
@@ -8340,6 +8220,12 @@
 		(uuid "88da1809-40dd-450c-9ca2-649c3f9727ed")
 	)
 	(junction
+		(at 24.13 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8dc54795-bad0-4470-b9d3-a8a7a85d6ddf")
+	)
+	(junction
 		(at 31.75 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8394,12 +8280,6 @@
 		(uuid "be6bce24-1ac8-4df5-8a3a-f462afc0be70")
 	)
 	(junction
-		(at 29.21 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ca33e0ee-8dd4-4e6a-a3d0-e5bc9d215fe3")
-	)
-	(junction
 		(at 24.13 151.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8428,12 +8308,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "de9e6e73-8081-4b10-8826-907fcf434c20")
-	)
-	(junction
-		(at 24.13 180.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e5e4606e-447e-4905-8851-2cb8fb1c540d")
 	)
 	(junction
 		(at 30.48 151.13)
@@ -9123,6 +8997,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 185.42) (xy 87.63 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f84c45b-4f58-43fe-b3e9-1fbc351ce93f")
+	)
+	(wire
+		(pts
 			(xy 102.87 27.94) (xy 107.95 27.94)
 		)
 		(stroke
@@ -9570,6 +9454,16 @@
 			(type default)
 		)
 		(uuid "ce4e61c5-a1f9-42ff-89fa-d71c8ad3fed0")
+	)
+	(wire
+		(pts
+			(xy 80.01 185.42) (xy 77.47 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce74872d-bb25-4ec5-8256-355633178ffb")
 	)
 	(polyline
 		(pts
@@ -14518,7 +14412,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 256.54 109.22 0)
 			(effects
 				(font
@@ -14886,7 +14780,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 207.01 95.25 0)
 			(effects
 				(font
@@ -14988,6 +14882,71 @@
 			(project "Hackboard"
 				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
 					(reference "#PWR051")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 259.08 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0f8f6875-0d4e-4881-a882-cff2e281bec6")
+		(property "Reference" "#PWR046"
+			(at 259.08 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 256.286 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 259.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 259.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 259.08 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eaaaeb42-cec6-441b-91be-eaa474b2d254")
+		)
+		(instances
+			(project "Hackboard"
+				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -15394,71 +15353,6 @@
 			(project "Hackboard"
 				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VD")
-		(at 242.57 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "184a471c-5df1-4fd1-a299-57ae6de0d813")
-		(property "Reference" "#PWR061"
-			(at 242.57 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VD"
-			(at 238.76 75.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 242.57 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e1aede81-08a3-4c89-ba80-a30ab68324e1")
-		)
-		(instances
-			(project "Hackboard"
-				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
-					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -16004,71 +15898,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VD")
-		(at 181.61 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "291a637b-bdcb-4d63-b19b-060c17719bbc")
-		(property "Reference" "#PWR040"
-			(at 181.61 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VD"
-			(at 178.054 39.624 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 181.61 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "926c750d-f9a3-4cce-884e-a3be4eddbafc")
-		)
-		(instances
-			(project "Hackboard"
-				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
-					(reference "#PWR040")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 107.95 24.13 180)
 		(unit 1)
@@ -16205,71 +16034,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VD")
-		(at 29.21 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2fe6efd1-5496-46af-a05f-9cc6dc5f0457")
-		(property "Reference" "#PWR07"
-			(at 29.21 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VD"
-			(at 29.21 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 29.21 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 29.21 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 29.21 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f0bbb2e-0663-4b7c-9c1a-69f048e3ecf5")
-		)
-		(instances
-			(project "Hackboard"
-				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 261.62 102.87 0)
 		(mirror y)
@@ -16366,7 +16130,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 133.35 49.53 0)
 			(effects
 				(font
@@ -16887,7 +16651,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "74LVC4245APW"
 			(at 192.405 11.43 0)
 			(effects
 				(font
@@ -16895,7 +16659,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
 			(at 194.31 10.16 0)
 			(effects
 				(font
@@ -17327,71 +17091,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5VD")
-		(at 242.57 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4a9511e4-df36-427e-8b1d-8e9206177524")
-		(property "Reference" "#PWR058"
-			(at 242.57 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VD"
-			(at 238.76 38.608 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 242.57 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 242.57 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "31359b6a-5104-4df4-8f1c-a96b00cd6887")
-		)
-		(instances
-			(project "Hackboard"
-				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
-					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 250.19 97.79 0)
 		(mirror y)
@@ -17620,7 +17319,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Card:CONN9_MSD-1_CUD"
 			(at 96.52 166.37 0)
 			(effects
 				(font
@@ -18314,6 +18013,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Polyfuse")
+		(at 83.82 185.42 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6496d601-b640-49e8-a554-6f551b338bbe")
+		(property "Reference" "F1"
+			(at 82.55 180.848 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "500mA"
+			(at 86.614 182.88 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Fuse:Fuse_1812_4532Metric"
+			(at 78.74 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
+			(at 83.82 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "a77a4a67-e086-4b9b-9981-ecb4a8a187f8")
+		)
+		(pin "1"
+			(uuid "9fc9b4ce-cb5f-4921-93cb-8202e43837fd")
+		)
+		(instances
+			(project "Hackboard"
+				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 254 151.13 0)
 		(unit 1)
@@ -18467,7 +18237,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "74LVC4245APW"
 			(at 253.365 11.43 0)
 			(effects
 				(font
@@ -18475,7 +18245,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
 			(at 255.27 10.16 0)
 			(effects
 				(font
@@ -18600,7 +18370,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_2x02_P2.54mm_Vertical"
 			(at 186.69 158.75 0)
 			(effects
 				(font
@@ -18709,71 +18479,6 @@
 			(project "Hackboard"
 				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
 					(reference "#PWR075")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VD")
-		(at 181.61 76.2 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ec1ba88-a59f-40e1-b5b0-cff687d34466")
-		(property "Reference" "#PWR043"
-			(at 181.61 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VD"
-			(at 177.8 75.184 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 181.61 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "e5bc90fe-59e6-439d-a3a7-2d530308eab7")
-		)
-		(instances
-			(project "Hackboard"
-				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
-					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -18915,6 +18620,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 181.61 111.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ca2a098-a4b8-483e-8b19-417dfc9ba3b8")
+		(property "Reference" "#PWR07"
+			(at 181.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 178.816 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 181.61 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "25fabad3-3c33-48f2-91c2-5aac054f5688")
+		)
+		(instances
+			(project "Hackboard"
+				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x31_Socket")
 		(at 125.73 107.95 0)
 		(unit 1)
@@ -18942,7 +18712,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x31_P2.54mm_Vertical"
 			(at 125.73 107.95 0)
 			(effects
 				(font
@@ -19232,7 +19002,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 233.68 139.7 0)
 			(effects
 				(font
@@ -19345,7 +19115,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Inductor_SMD:L_0603_1608Metric"
 			(at 114.3 18.542 90)
 			(effects
 				(font
@@ -19455,7 +19225,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 77.47 185.42 0)
+		(at 90.17 185.42 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19464,7 +19234,7 @@
 		(dnp no)
 		(uuid "8a49c444-92f7-403b-a194-904159276ea0")
 		(property "Reference" "#PWR017"
-			(at 77.47 189.23 0)
+			(at 90.17 189.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19473,7 +19243,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 77.724 181.864 0)
+			(at 90.424 181.864 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19481,7 +19251,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 185.42 0)
+			(at 90.17 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19490,7 +19260,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 185.42 0)
+			(at 90.17 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19499,7 +19269,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 77.47 185.42 0)
+			(at 90.17 185.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19746,7 +19516,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_BarrelJack:CUI_PJ-002AH"
 			(at 184.15 140.716 0)
 			(effects
 				(font
@@ -20419,7 +20189,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FP-NCP164CSN330T1G_OSI"
+		(property "Footprint" "Package_SO:TSOP-5_1.65x3.05mm_P0.95mm"
 			(at 29.21 185.42 0)
 			(effects
 				(font
@@ -20735,142 +20505,6 @@
 			(project "Hackboard"
 				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VD")
-		(at 181.61 111.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ac552c6e-ddfb-4523-ae17-cb0f6c3b8e34")
-		(property "Reference" "#PWR046"
-			(at 181.61 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VD"
-			(at 177.8 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 181.61 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "044a0a11-733a-425d-871e-cd0c78964a81")
-		)
-		(instances
-			(project "Hackboard"
-				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
-					(reference "#PWR046")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Polyfuse")
-		(at 24.13 176.53 0)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "accb6a28-dd68-4bbb-ac13-65afcd53e587")
-		(property "Reference" "F1"
-			(at 21.59 175.2599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Polyfuse"
-			(at 21.59 177.7999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 25.4 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 24.13 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resettable fuse, polymeric positive temperature coefficient"
-			(at 24.13 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0cf70ab6-6eb0-4f43-abb8-eec2f2972b24")
-		)
-		(pin "1"
-			(uuid "63c155d9-8102-44b6-b25a-1ba2abbcbb44")
-		)
-		(instances
-			(project "Hackboard"
-				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
-					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -21208,6 +20842,71 @@
 			(project "Hackboard"
 				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
 					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 181.61 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b6e4a6a7-a4a2-45c2-9680-00397047a869")
+		(property "Reference" "#PWR037"
+			(at 181.61 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 178.816 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 181.61 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ecc690a3-21e3-4f8b-b255-76fd99a57f82")
+		)
+		(instances
+			(project "Hackboard"
+				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -21566,7 +21265,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "74LVC4245APW"
 			(at 253.365 46.99 0)
 			(effects
 				(font
@@ -21574,7 +21273,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
 			(at 255.27 45.72 0)
 			(effects
 				(font
@@ -21973,7 +21672,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x31_P2.54mm_Vertical"
 			(at 133.35 107.95 0)
 			(effects
 				(font
@@ -22310,6 +22009,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 181.61 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d55febd2-9148-45dd-b59d-8548882e1a2d")
+		(property "Reference" "#PWR043"
+			(at 181.61 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 178.816 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 181.61 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "396988c2-6ccf-46b4-b3e2-59b19d81ec93")
+		)
+		(instances
+			(project "Hackboard"
+				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
+					(reference "#PWR043")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 91.44 172.72 0)
 		(unit 1)
@@ -22515,6 +22279,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+5V")
+		(at 242.57 76.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "dce558ee-a4df-437f-854b-69322e1ee936")
+		(property "Reference" "#PWR038"
+			(at 242.57 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 239.776 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 242.57 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9bedf40f-ed29-45f2-8148-a0d864a337e1")
+		)
+		(instances
+			(project "Hackboard"
+				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
 		(at 242.57 80.01 0)
 		(mirror y)
@@ -22648,7 +22477,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 24.13 172.72 0)
+		(at 24.13 180.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22656,7 +22485,7 @@
 		(dnp no)
 		(uuid "e090fdca-d336-40ce-8ed9-c7ac2b1985ab")
 		(property "Reference" "#PWR05"
-			(at 24.13 176.53 0)
+			(at 24.13 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22665,7 +22494,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 21.336 170.18 0)
+			(at 21.336 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22673,7 +22502,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 24.13 172.72 0)
+			(at 24.13 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22682,7 +22511,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 24.13 172.72 0)
+			(at 24.13 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22691,7 +22520,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 24.13 172.72 0)
+			(at 24.13 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22773,6 +22602,71 @@
 			(project "Hackboard"
 				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 242.57 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e4ec6e4f-10b6-41de-83e0-2089a6d5a192")
+		(property "Reference" "#PWR040"
+			(at 242.57 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+5V"
+			(at 239.776 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 242.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 242.57 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "22fb459b-8f88-4728-b01e-45772a35687f")
+		)
+		(instances
+			(project "Hackboard"
+				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -23140,7 +23034,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_SMD:SW_SPST_PTS645"
 			(at 26.67 38.1 0)
 			(effects
 				(font
@@ -23213,7 +23107,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 154.94 49.53 0)
 			(effects
 				(font
@@ -23787,7 +23681,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "74LVC4245APW"
 			(at 192.405 46.99 0)
 			(effects
 				(font
@@ -23795,7 +23689,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
 			(at 194.31 45.72 0)
 			(effects
 				(font
@@ -23980,7 +23874,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "74LVC4245APW"
 			(at 192.405 82.55 0)
 			(effects
 				(font
@@ -23988,7 +23882,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_SO:TSSOP-24_4.4x7.8mm_P0.65mm"
 			(at 194.31 81.28 0)
 			(effects
 				(font
@@ -24114,7 +24008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 256.54 86.36 0)
 			(effects
 				(font
@@ -24247,71 +24141,6 @@
 			(project "Hackboard"
 				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
 					(reference "#PWR041")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5VD")
-		(at 259.08 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ff2c2a84-fb97-44da-bee2-d7752681a8b8")
-		(property "Reference" "#PWR068"
-			(at 259.08 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5VD"
-			(at 257.302 94.234 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 259.08 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 259.08 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5VD\""
-			(at 259.08 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2a1bc76b-c763-45fc-971b-3a5e939c35be")
-		)
-		(instances
-			(project "Hackboard"
-				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
-					(reference "#PWR068")
 					(unit 1)
 				)
 			)
