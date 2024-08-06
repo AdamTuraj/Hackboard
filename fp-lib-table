@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "DO-221AC")(type "KiCad")(uri "${KIPRJMOD}/DO-221AC.pretty")(options "")(descr ""))
+)
