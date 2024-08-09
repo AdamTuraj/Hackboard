@@ -8174,6 +8174,12 @@
 		(uuid "2839317c-1f9a-498b-bdab-c8b381ad6ed8")
 	)
 	(junction
+		(at 229.87 162.56)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2efb858a-9b01-4fc5-95c9-7c0c3c2de266")
+	)
+	(junction
 		(at 246.38 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8262,12 +8268,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "72678fae-f827-4ddc-a465-caa7ce37e171")
-	)
-	(junction
-		(at 229.87 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7bc7d44b-debf-4316-9ee2-0063924dc1ae")
 	)
 	(junction
 		(at 62.23 19.05)
@@ -9706,16 +9706,6 @@
 			(type default)
 		)
 		(uuid "daee2aae-5623-4d43-aee5-be1e2e92de2b")
-	)
-	(wire
-		(pts
-			(xy 222.25 162.56) (xy 229.87 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dbb6b7ac-1ee1-4fcb-b801-790c2ad3e807")
 	)
 	(polyline
 		(pts
@@ -20655,6 +20645,73 @@
 			(project "Hackboard"
 				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 226.06 162.56 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a3fb58f3-6c8f-4a70-ad56-f5647a205e34")
+		(property "Reference" "R16"
+			(at 226.06 160.528 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 226.06 164.846 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.06 164.338 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 226.06 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 226.06 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8f4f507c-d394-4802-bca7-f962bfbb8083")
+		)
+		(pin "1"
+			(uuid "f41c7a61-bc7e-4baf-9eed-361b2af81147")
+		)
+		(instances
+			(project "Hackboard"
+				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
+					(reference "R16")
 					(unit 1)
 				)
 			)
