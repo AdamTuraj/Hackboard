@@ -9521,12 +9521,6 @@
 		(uuid "0baab1ca-08df-4919-9448-ca60d275fdb6")
 	)
 	(junction
-		(at 255.27 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0faa49bb-c376-4d2f-81ca-8e947bddc84f")
-	)
-	(junction
 		(at 158.75 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9753,6 +9747,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b84541cb-792d-45d1-929a-346caefd064e")
+	)
+	(junction
+		(at 255.27 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b8a81e9a-5970-4f77-a2f5-d8d0c182b211")
 	)
 	(junction
 		(at 251.46 97.79)
@@ -10540,16 +10540,6 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 97.79) (xy 255.27 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6cccc375-4f16-4c7b-ad1d-1a6fa92d9d36")
-	)
-	(wire
-		(pts
 			(xy 161.29 175.26) (xy 161.29 165.1)
 		)
 		(stroke
@@ -10577,6 +10567,16 @@
 			(type default)
 		)
 		(uuid "7784133c-ab4e-41c9-af2c-b6d6acee4933")
+	)
+	(wire
+		(pts
+			(xy 255.27 97.79) (xy 259.08 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "793c6f1a-c35e-4bfb-a42c-6e46ba15782e")
 	)
 	(wire
 		(pts
@@ -11200,7 +11200,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 97.79) (xy 259.08 97.79)
+			(xy 251.46 97.79) (xy 255.27 97.79)
 		)
 		(stroke
 			(width 0)
@@ -11578,9 +11578,9 @@
 		)
 		(uuid "6ef7514b-82e8-4b1f-b6d8-5caa7e3f8d75")
 	)
-	(global_label "PWM_28_O"
+	(global_label "PWM_27_O"
 		(shape bidirectional)
-		(at 176.53 64.77 180)
+		(at 176.53 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11590,7 +11590,7 @@
 		)
 		(uuid "0007287c-2d9f-47c2-a317-7f2bf641b5b2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.576 64.77 0)
+			(at 162.576 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11666,9 +11666,9 @@
 			)
 		)
 	)
-	(global_label "PWM_25_O"
+	(global_label "PWM_30_O"
 		(shape bidirectional)
-		(at 186.69 57.15 180)
+		(at 186.69 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11678,7 +11678,7 @@
 		)
 		(uuid "03e06665-8849-42f1-8f51-4728b2675f24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.736 57.15 0)
+			(at 172.736 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12150,6 +12150,28 @@
 			)
 		)
 	)
+	(global_label "CAN_RX_26_O"
+		(shape bidirectional)
+		(at 138.43 113.03 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "1650e8ec-fd78-43dd-8d3f-1696054946e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.3474 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI_MOSI_37"
 		(shape bidirectional)
 		(at 205.74 31.75 0)
@@ -12216,9 +12238,9 @@
 			)
 		)
 	)
-	(global_label "CAN_TX_30_O"
+	(global_label "CAN_TX_25_O"
 		(shape bidirectional)
-		(at 186.69 69.85 180)
+		(at 186.69 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12228,7 +12250,7 @@
 		)
 		(uuid "1b73cbd1-5431-42e4-9215-c077fc89d098")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.075 69.85 0)
+			(at 170.075 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12326,28 +12348,6 @@
 			)
 		)
 	)
-	(global_label "CAN_TX_30_O"
-		(shape bidirectional)
-		(at 138.43 102.87 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "2023fe42-104f-48cd-b18f-7b7da782b766")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.045 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PWM_2"
 		(shape bidirectional)
 		(at 74.93 123.19 0)
@@ -12436,9 +12436,31 @@
 			)
 		)
 	)
-	(global_label "CAN_RX_29"
+	(global_label "PWM_28_O"
 		(shape bidirectional)
-		(at 205.74 67.31 0)
+		(at 138.43 107.95 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "26412684-4675-44f2-9a81-4b75da4db43b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.384 107.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_RX_26"
+		(shape bidirectional)
+		(at 205.74 59.69 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12448,7 +12470,7 @@
 		)
 		(uuid "26cf30e7-29c2-4509-845d-a4864abbff01")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.3593 67.31 0)
+			(at 220.3593 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12524,7 +12546,7 @@
 			)
 		)
 	)
-	(global_label "PWM_28"
+	(global_label "PWM_27"
 		(shape bidirectional)
 		(at 74.93 110.49 0)
 		(fields_autoplaced yes)
@@ -12700,6 +12722,28 @@
 			)
 		)
 	)
+	(global_label "CAN_TX_25_O"
+		(shape bidirectional)
+		(at 138.43 115.57 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "36679340-2379-4b79-b2a5-e0488b702823")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.045 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART_RX_21"
 		(shape bidirectional)
 		(at 39.37 100.33 180)
@@ -12735,6 +12779,28 @@
 		(uuid "36a831cd-1987-423a-9074-c00b9e6a2366")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 85.3764 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM_30_O"
+		(shape bidirectional)
+		(at 138.43 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "37ea55fd-7c6c-428d-b167-4effb81e73d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.384 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12942,7 +13008,7 @@
 			)
 		)
 	)
-	(global_label "PWM_26"
+	(global_label "PWM_29"
 		(shape bidirectional)
 		(at 74.93 105.41 0)
 		(fields_autoplaced yes)
@@ -13052,6 +13118,28 @@
 			)
 		)
 	)
+	(global_label "SD_SCK_31_O"
+		(shape bidirectional)
+		(at 138.43 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4caf0f82-9264-4536-bf9e-a42c82ba010a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 155.4078 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO_32"
 		(shape bidirectional)
 		(at 111.76 55.88 180)
@@ -13087,28 +13175,6 @@
 		(uuid "4ce8d5a9-a13b-4bd5-9511-038757385aac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 275.8764 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_31_O"
-		(shape bidirectional)
-		(at 138.43 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "518aded1-fc66-4ca1-ac41-6a9df8e35bf3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.6865 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13206,9 +13272,9 @@
 			)
 		)
 	)
-	(global_label "PWM_28"
+	(global_label "PWM_27"
 		(shape bidirectional)
-		(at 205.74 64.77 0)
+		(at 205.74 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13218,7 +13284,7 @@
 		)
 		(uuid "5cae06aa-d7a1-4a13-9436-56d37113ea77")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.3959 64.77 0)
+			(at 217.3959 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13241,28 +13307,6 @@
 		(uuid "5dd5e5ce-b24a-4b3a-a350-4c1e87edee10")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 275.8764 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWM_27_O"
-		(shape bidirectional)
-		(at 138.43 110.49 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "5e3b2038-9e32-4edf-8651-d5e458de91d1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.384 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13360,9 +13404,9 @@
 			)
 		)
 	)
-	(global_label "PWM_27"
+	(global_label "PWM_28"
 		(shape bidirectional)
-		(at 205.74 62.23 0)
+		(at 205.74 64.77 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13372,7 +13416,7 @@
 		)
 		(uuid "6558c8a2-bdb5-47a6-ba21-b02abf199cc1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.3959 62.23 0)
+			(at 217.3959 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13492,6 +13536,28 @@
 			)
 		)
 	)
+	(global_label "GPIO_24_O"
+		(shape bidirectional)
+		(at 138.43 118.11 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6fda29b2-ebdd-492e-9d36-478a2aa569c2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.6865 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "OPAMP_N_A2"
 		(shape bidirectional)
 		(at 74.93 52.07 0)
@@ -13505,28 +13571,6 @@
 		(uuid "70988571-1b7a-4a86-809a-b04bd7c1aaa9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 91.0008 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWM_26_O"
-		(shape bidirectional)
-		(at 138.43 113.03 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7303bbc7-71b8-4d4d-bc23-01dc8737693d")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.384 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13954,9 +13998,9 @@
 			)
 		)
 	)
-	(global_label "PWM_27_O"
+	(global_label "PWM_28_O"
 		(shape bidirectional)
-		(at 186.69 62.23 180)
+		(at 186.69 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -13966,7 +14010,7 @@
 		)
 		(uuid "8b6df9c7-e613-47ab-88a5-55f0ed06c27b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.736 62.23 0)
+			(at 172.736 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14196,6 +14240,28 @@
 			)
 		)
 	)
+	(global_label "PWM_29_O"
+		(shape bidirectional)
+		(at 138.43 105.41 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9b223791-3b3b-494d-bcfa-b7f3402a6ae6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.384 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "USB_DM_17"
 		(shape bidirectional)
 		(at 205.74 92.71 0)
@@ -14262,7 +14328,7 @@
 			)
 		)
 	)
-	(global_label "CAN_TX_30"
+	(global_label "CAN_TX_25"
 		(shape bidirectional)
 		(at 74.93 115.57 0)
 		(fields_autoplaced yes)
@@ -14438,7 +14504,7 @@
 			)
 		)
 	)
-	(global_label "CAN_RX_29"
+	(global_label "CAN_RX_26"
 		(shape bidirectional)
 		(at 74.93 113.03 0)
 		(fields_autoplaced yes)
@@ -14482,9 +14548,9 @@
 			)
 		)
 	)
-	(global_label "GPIO_31_O"
+	(global_label "GPIO_24_O"
 		(shape bidirectional)
-		(at 186.69 72.39 180)
+		(at 186.69 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14494,7 +14560,7 @@
 		)
 		(uuid "afd1cbb8-34b9-4132-9208-f063fc099a8e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.4335 72.39 0)
+			(at 172.4335 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14592,9 +14658,9 @@
 			)
 		)
 	)
-	(global_label "PWM_26_O"
+	(global_label "PWM_29_O"
 		(shape bidirectional)
-		(at 186.69 59.69 180)
+		(at 186.69 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14604,7 +14670,7 @@
 		)
 		(uuid "b459e2ed-a3b8-4169-9b26-072d2b87ca61")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.736 59.69 0)
+			(at 172.736 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14614,7 +14680,7 @@
 			)
 		)
 	)
-	(global_label "PWM_25"
+	(global_label "PWM_30"
 		(shape bidirectional)
 		(at 74.93 102.87 0)
 		(fields_autoplaced yes)
@@ -14724,9 +14790,9 @@
 			)
 		)
 	)
-	(global_label "CAN_RX_29_O"
+	(global_label "CAN_RX_26_O"
 		(shape bidirectional)
-		(at 186.69 67.31 180)
+		(at 186.69 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -14736,7 +14802,7 @@
 		)
 		(uuid "ba59100f-4c82-4636-9756-12552b16bc96")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.7726 67.31 0)
+			(at 169.7726 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14988,9 +15054,9 @@
 			)
 		)
 	)
-	(global_label "SD_SCK_24_O"
+	(global_label "SD_SCK_31_O"
 		(shape bidirectional)
-		(at 186.69 54.61 180)
+		(at 186.69 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15000,7 +15066,7 @@
 		)
 		(uuid "ca4e61d6-7229-4971-9c74-6a2bf1289405")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 169.7122 54.61 0)
+			(at 169.7122 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15010,7 +15076,7 @@
 			)
 		)
 	)
-	(global_label "SD_SCK_24"
+	(global_label "SD_SCK_31"
 		(shape bidirectional)
 		(at 74.93 100.33 0)
 		(fields_autoplaced yes)
@@ -15032,9 +15098,9 @@
 			)
 		)
 	)
-	(global_label "SD_SCK_24"
+	(global_label "SD_SCK_31"
 		(shape bidirectional)
-		(at 205.74 54.61 0)
+		(at 205.74 72.39 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15044,7 +15110,7 @@
 		)
 		(uuid "ccf8dab6-5102-440d-b358-689c86c41993")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.4197 54.61 0)
+			(at 220.4197 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15094,28 +15160,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_SCK_24_O"
-		(shape bidirectional)
-		(at 138.43 118.11 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "cde5bd73-627e-4d3c-b774-f6395b8d5b66")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.4078 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -15208,7 +15252,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_31"
+	(global_label "GPIO_24"
 		(shape bidirectional)
 		(at 39.37 105.41 180)
 		(fields_autoplaced yes)
@@ -15287,28 +15331,6 @@
 		(uuid "d69cbb19-adb9-4396-9dfb-94b288d02a0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 280.9564 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWM_28_O"
-		(shape bidirectional)
-		(at 138.43 107.95 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d6e8bbad-4945-48f8-8355-0fd1e6890030")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.384 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15406,9 +15428,9 @@
 			)
 		)
 	)
-	(global_label "PWM_26"
+	(global_label "PWM_29"
 		(shape bidirectional)
-		(at 205.74 59.69 0)
+		(at 205.74 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15418,7 +15440,7 @@
 		)
 		(uuid "dd0c7e2c-49d8-4e0b-873f-721f5acb399b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.3959 59.69 0)
+			(at 217.3959 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15472,9 +15494,9 @@
 			)
 		)
 	)
-	(global_label "CAN_TX_30"
+	(global_label "CAN_TX_25"
 		(shape bidirectional)
-		(at 205.74 69.85 0)
+		(at 205.74 57.15 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15484,7 +15506,7 @@
 		)
 		(uuid "de1e0752-08a1-43bf-a9d5-f6dd165baed2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 220.0569 69.85 0)
+			(at 220.0569 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15604,9 +15626,9 @@
 			)
 		)
 	)
-	(global_label "GPIO_31"
+	(global_label "GPIO_24"
 		(shape bidirectional)
-		(at 205.74 72.39 0)
+		(at 205.74 54.61 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15616,7 +15638,7 @@
 		)
 		(uuid "e3772ebe-e13b-43c0-9e9c-02069a1fcb7d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.6984 72.39 0)
+			(at 217.6984 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15692,9 +15714,9 @@
 			)
 		)
 	)
-	(global_label "PWM_25_O"
+	(global_label "PWM_27_O"
 		(shape bidirectional)
-		(at 138.43 115.57 0)
+		(at 138.43 110.49 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15702,9 +15724,9 @@
 			)
 			(justify left)
 		)
-		(uuid "e6723d62-f444-4b0e-b0bc-773a43558add")
+		(uuid "e6a6069c-b799-4875-b798-62a753211bf2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.384 115.57 0)
+			(at 152.384 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15758,7 +15780,7 @@
 			)
 		)
 	)
-	(global_label "PWM_27"
+	(global_label "PWM_28"
 		(shape bidirectional)
 		(at 74.93 107.95 0)
 		(fields_autoplaced yes)
@@ -15771,28 +15793,6 @@
 		(uuid "eaf83f47-c44f-49bb-8494-eb3b21e970f4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 86.5859 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_RX_29_O"
-		(shape bidirectional)
-		(at 138.43 105.41 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ed19058f-294c-4969-95bf-ec57c7d93de8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 155.3474 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15824,9 +15824,9 @@
 			)
 		)
 	)
-	(global_label "PWM_25"
+	(global_label "PWM_30"
 		(shape bidirectional)
-		(at 205.74 57.15 0)
+		(at 205.74 69.85 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -15836,7 +15836,7 @@
 		)
 		(uuid "f11d4b6d-87a8-48b8-8e32-138ed6c6d844")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 217.3959 57.15 0)
+			(at 217.3959 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19101,7 +19101,8 @@
 	)
 	(symbol
 		(lib_id "Jumper:Jumper_2_Bridged")
-		(at 181.61 64.77 0)
+		(at 181.61 62.23 0)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom yes)
@@ -19109,7 +19110,7 @@
 		(dnp no)
 		(uuid "47b06dc4-a498-47b1-81bd-3e14e1720fec")
 		(property "Reference" "JP2"
-			(at 181.61 65.278 0)
+			(at 181.61 61.722 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19117,7 +19118,7 @@
 			)
 		)
 		(property "Value" "Jumper_2_Bridged"
-			(at 181.61 62.23 0)
+			(at 181.61 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19126,7 +19127,7 @@
 			)
 		)
 		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 181.61 64.77 0)
+			(at 181.61 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19135,7 +19136,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 181.61 64.77 0)
+			(at 181.61 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19144,7 +19145,7 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
-			(at 181.61 64.77 0)
+			(at 181.61 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19229,72 +19230,6 @@
 			(project "Hackboard"
 				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
 					(reference "#PWR033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3V3")
-		(at 255.27 97.79 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "4d8b6626-a7b3-4ef4-a9e3-7e242cc64703")
-		(property "Reference" "#PWR064"
-			(at 255.27 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 255.016 93.726 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 255.27 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 255.27 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 255.27 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "00dc006e-e255-419b-a870-c81b834cc37e")
-		)
-		(instances
-			(project "Hackboard"
-				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
-					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -21732,6 +21667,71 @@
 			(project "Hackboard"
 				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:VDDA")
+		(at 255.27 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "90fd3f12-fa5e-4793-a3c7-f90e217c24fd")
+		(property "Reference" "#PWR076"
+			(at 255.27 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VDDA"
+			(at 255.27 93.726 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"VDDA\""
+			(at 255.27 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5b3ecab9-b961-4787-85ed-60d0f18dc041")
+		)
+		(instances
+			(project "Hackboard"
+				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
