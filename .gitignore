@@ -18,7 +18,7 @@ _autosave-*
 fp-info-cache
 \#auto_saved_files#
 .DS_Store
-~Hackboard.kicad_sch.lck
+*.lck
 
 # Netlist files (exported from Eeschema)
 *.net

@@ -11690,7 +11690,7 @@
 	)
 	(global_label "PWM_13_O"
 		(shape bidirectional)
-		(at 246.38 36.83 180)
+		(at 246.38 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11700,7 +11700,7 @@
 		)
 		(uuid "06eed15c-d041-44d4-8519-aace4d3e399b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.426 36.83 0)
+			(at 232.426 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11866,7 +11866,7 @@
 	)
 	(global_label "PWM_15_O"
 		(shape bidirectional)
-		(at 246.38 31.75 180)
+		(at 246.38 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11876,7 +11876,7 @@
 		)
 		(uuid "0bfb8f2a-2b42-4b92-b95b-a5944d1d92ad")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 232.426 31.75 0)
+			(at 232.426 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11910,7 +11910,7 @@
 	)
 	(global_label "PWM_15"
 		(shape bidirectional)
-		(at 265.43 31.75 0)
+		(at 265.43 36.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11920,7 +11920,7 @@
 		)
 		(uuid "0c8746d3-7fe7-431b-9bcb-fae07460382a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.0859 31.75 0)
+			(at 277.0859 36.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12130,7 +12130,7 @@
 	)
 	(global_label "PWM_13"
 		(shape bidirectional)
-		(at 265.43 36.83 0)
+		(at 265.43 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12140,7 +12140,7 @@
 		)
 		(uuid "1647fac5-5a57-4b16-854c-e5313b2b4944")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 277.0859 36.83 0)
+			(at 277.0859 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
