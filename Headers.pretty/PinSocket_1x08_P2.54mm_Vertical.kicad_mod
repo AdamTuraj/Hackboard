@@ -1,4 +1,4 @@
-(footprint "PinSocket_1x09_P2.54mm_Vertical"
+(footprint "PinSocket_1x08_P2.54mm_Vertical"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -68,8 +68,28 @@
 	)
 	(attr through_hole)
 	(fp_line
+		(start -1.33 -1.25)
+		(end 0 -1.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a665701c-3c70-400f-9de4-6d499af4a3cd")
+	)
+	(fp_line
+		(start -1.33 0.08)
+		(end -1.33 -1.25)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "38ebd811-011d-45fe-b59a-4219ff613183")
+	)
+	(fp_line
 		(start -1.33 1.27)
-		(end -1.33 21.5)
+		(end -1.33 19)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -88,8 +108,8 @@
 		(uuid "eaaccfe1-d524-4c15-aa32-9577c7e9b401")
 	)
 	(fp_line
-		(start -1.33 21.5)
-		(end 1.33 21.5)
+		(start -1.33 19)
+		(end 1.33 19)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -98,27 +118,7 @@
 		(uuid "025399cf-51c8-418b-8c0b-9bcb8bce84d7")
 	)
 	(fp_line
-		(start 0 -1.33)
-		(end 1.33 -1.33)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "38ebd811-011d-45fe-b59a-4219ff613183")
-	)
-	(fp_line
-		(start 1.33 -1.33)
-		(end 1.33 0)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "a665701c-3c70-400f-9de4-6d499af4a3cd")
-	)
-	(fp_line
-		(start -1.7625 22)
+		(start -1.7625 19.5)
 		(end -1.75 -2)
 		(stroke
 			(width 0.05)
@@ -139,7 +139,7 @@
 	)
 	(fp_line
 		(start 1.75 -2)
-		(end 1.7625 22)
+		(end 1.7625 19.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -148,8 +148,8 @@
 		(uuid "6a4baa34-d853-4316-afcc-5749c2e930e9")
 	)
 	(fp_line
-		(start 1.7625 22)
-		(end -1.7625 22)
+		(start 1.7625 19.5)
+		(end -1.7625 19.5)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -168,7 +168,7 @@
 		(uuid "ace9eeaa-62b7-4ef7-b797-e2619536b39e")
 	)
 	(fp_line
-		(start -1.25 21.5)
+		(start -1.23 19)
 		(end -1.25 -1.27)
 		(stroke
 			(width 0.1)
@@ -188,8 +188,8 @@
 		(uuid "158b3168-c17c-45aa-8893-1f54bfdf6036")
 	)
 	(fp_line
-		(start 1.21 21.5)
-		(end -1.25 21.5)
+		(start 1.23 19)
+		(end -1.23 19)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -199,7 +199,7 @@
 	)
 	(fp_line
 		(start 1.27 -0.635)
-		(end 1.21 21.5)
+		(end 1.23 19)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -227,7 +227,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1470588235)
-		(uuid "6caabe7b-b9bc-44e2-9d32-8f4505e56962")
+		(uuid "9df4828f-ef1d-439d-b468-af7e631da319")
 	)
 	(pad "2" thru_hole roundrect
 		(at 0 2.54)
@@ -305,17 +305,6 @@
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1470588235)
 		(uuid "4ebff7d2-04c5-42af-b381-729c5e05741b")
-	)
-	(pad "9" thru_hole roundrect
-		(at 0 20.32)
-		(size 5 1.7)
-		(drill 1
-			(offset 1.6 0)
-		)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.1470588235)
-		(uuid "243d1dad-b34f-4570-b691-dc509bb6dc53")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x24_P2.54mm_Vertical.wrl"
 		(offset
