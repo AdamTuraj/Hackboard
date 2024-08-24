@@ -10076,10 +10076,10 @@
 		)
 		(uuid "1b8c22bf-69a2-4d68-bb75-d6eb55e8f1d2")
 	)
-	(text_box "Reverse Polarity Protection"
+	(text_box "Reverse Polarity Protection\n\nMaximum throughput is 50W which should be more then sufficient"
 		(exclude_from_sim no)
 		(at 182.88 58.42 0)
-		(size 20.32 5.08)
+		(size 25.4 15.24)
 		(stroke
 			(width 0)
 			(type default)
@@ -10182,28 +10182,6 @@
 		(uuid "114ae59a-3c1b-4541-99ba-ae300da0ab8c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 86.5859 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWM_13"
-		(shape bidirectional)
-		(at 147.32 180.34 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "17643980-75ff-4064-a008-3e185cf063a9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.9759 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10653,7 +10631,7 @@
 			)
 		)
 	)
-	(global_label "PWM_25_O"
+	(global_label "PWM_25"
 		(shape bidirectional)
 		(at 147.32 144.78 0)
 		(fields_autoplaced yes)
@@ -10665,7 +10643,7 @@
 		)
 		(uuid "4c86c28b-9827-4482-ae7a-98961a08ec5f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.274 144.78 0)
+			(at 158.9759 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11379,7 +11357,7 @@
 			)
 		)
 	)
-	(global_label "PWM_25_O"
+	(global_label "PWM_13_O"
 		(shape bidirectional)
 		(at 165.1 53.34 270)
 		(fields_autoplaced yes)
@@ -11441,6 +11419,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM_13_O"
+		(shape bidirectional)
+		(at 147.32 180.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ee2b0a8-05cd-4924-87ee-53a8a2ba287c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.274 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11819,7 +11819,7 @@
 			)
 		)
 	)
-	(global_label "PWM_25_O"
+	(global_label "PWM_13_O"
 		(shape bidirectional)
 		(at 168.91 36.83 270)
 		(fields_autoplaced yes)
@@ -11973,7 +11973,7 @@
 			)
 		)
 	)
-	(global_label "PWM_25"
+	(global_label "PWM_13"
 		(shape bidirectional)
 		(at 158.75 35.56 90)
 		(fields_autoplaced yes)
@@ -18186,7 +18186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DO-221AC:VSSAF3L63HM3"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 63.5 149.86 0)
 			(effects
 				(font
@@ -18213,7 +18213,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "VSSAF3L63HM3/H"
+		(property "MPN" "SSB44-E3/52T"
 			(at 63.5 149.86 0)
 			(effects
 				(font
@@ -18901,7 +18901,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "DO-221AC:VSSAF3L63HM3"
+		(property "Footprint" "Diode_SMD:D_SMB"
 			(at 199.39 46.99 0)
 			(effects
 				(font
@@ -18928,7 +18928,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "VSSAF3L63HM3/H"
+		(property "MPN" "SSB44-E3/52T"
 			(at 199.39 46.99 0)
 			(effects
 				(font
@@ -20164,7 +20164,7 @@
 				)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "PSMN041"
 			(at 158.75 56.642 90)
 			(effects
 				(font
@@ -20172,7 +20172,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
 			(at 161.29 55.88 0)
 			(effects
 				(font
@@ -20714,7 +20714,7 @@
 				)
 			)
 		)
-		(property "Value" "NMOS"
+		(property "Value" "PSMN041"
 			(at 193.04 54.102 90)
 			(effects
 				(font
@@ -20722,7 +20722,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Package_TO_SOT_SMD:LFPAK56"
 			(at 190.5 53.34 0)
 			(effects
 				(font
