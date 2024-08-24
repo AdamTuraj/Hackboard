@@ -1952,22 +1952,22 @@
 				)
 			)
 		)
-		(symbol "Connector_Generic:Conn_01x22"
+		(symbol "Connector_Generic:Conn_01x20"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 27.94 0)
+				(at 0 25.4 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "Conn_01x22"
-				(at 0 -30.48 0)
+			(property "Value" "Conn_01x20"
+				(at 0 -27.94 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1992,7 +1992,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x22, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2019,18 +2019,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x22_1_1"
-				(rectangle
-					(start -1.27 -27.813)
-					(end 0 -28.067)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
+			(symbol "Conn_01x20_1_1"
 				(rectangle
 					(start -1.27 -25.273)
 					(end 0 -25.527)
@@ -2252,19 +2241,8 @@
 					)
 				)
 				(rectangle
-					(start -1.27 25.527)
-					(end 0 25.273)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 26.67)
-					(end 1.27 -29.21)
+					(start -1.27 24.13)
+					(end 1.27 -26.67)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -2274,7 +2252,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 25.4 0)
+					(at -5.08 22.86 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -2292,7 +2270,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_10"
 						(effects
@@ -2310,7 +2288,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_11"
 						(effects
@@ -2328,7 +2306,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 -5.08 0)
 					(length 3.81)
 					(name "Pin_12"
 						(effects
@@ -2346,7 +2324,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -7.62 0)
 					(length 3.81)
 					(name "Pin_13"
 						(effects
@@ -2364,7 +2342,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -7.62 0)
+					(at -5.08 -10.16 0)
 					(length 3.81)
 					(name "Pin_14"
 						(effects
@@ -2382,7 +2360,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -10.16 0)
+					(at -5.08 -12.7 0)
 					(length 3.81)
 					(name "Pin_15"
 						(effects
@@ -2400,7 +2378,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -12.7 0)
+					(at -5.08 -15.24 0)
 					(length 3.81)
 					(name "Pin_16"
 						(effects
@@ -2418,7 +2396,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -15.24 0)
+					(at -5.08 -17.78 0)
 					(length 3.81)
 					(name "Pin_17"
 						(effects
@@ -2436,7 +2414,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -17.78 0)
+					(at -5.08 -20.32 0)
 					(length 3.81)
 					(name "Pin_18"
 						(effects
@@ -2454,7 +2432,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -20.32 0)
+					(at -5.08 -22.86 0)
 					(length 3.81)
 					(name "Pin_19"
 						(effects
@@ -2472,7 +2450,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 22.86 0)
+					(at -5.08 20.32 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -2490,7 +2468,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -22.86 0)
+					(at -5.08 -25.4 0)
 					(length 3.81)
 					(name "Pin_20"
 						(effects
@@ -2508,43 +2486,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -25.4 0)
-					(length 3.81)
-					(name "Pin_21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "21"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -27.94 0)
-					(length 3.81)
-					(name "Pin_22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 20.32 0)
+					(at -5.08 17.78 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -2562,7 +2504,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 17.78 0)
+					(at -5.08 15.24 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -2580,7 +2522,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 15.24 0)
+					(at -5.08 12.7 0)
 					(length 3.81)
 					(name "Pin_5"
 						(effects
@@ -2598,7 +2540,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 12.7 0)
+					(at -5.08 10.16 0)
 					(length 3.81)
 					(name "Pin_6"
 						(effects
@@ -2616,7 +2558,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 10.16 0)
+					(at -5.08 7.62 0)
 					(length 3.81)
 					(name "Pin_7"
 						(effects
@@ -2634,7 +2576,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 7.62 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_8"
 						(effects
@@ -2652,7 +2594,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 5.08 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_9"
 						(effects
@@ -8700,7 +8642,7 @@
 		(uuid "fd08d4e5-c68a-46e4-b9ad-a26e6ef8dd50")
 	)
 	(no_connect
-		(at 147.32 166.37)
+		(at 147.32 170.18)
 		(uuid "0c6b0fca-2087-4c3a-9414-fc12fb1dfe1f")
 	)
 	(no_connect
@@ -8716,7 +8658,7 @@
 		(uuid "5b6dda6f-5c78-4f4d-8929-fb5165ee4e4d")
 	)
 	(no_connect
-		(at 147.32 146.05)
+		(at 147.32 149.86)
 		(uuid "661f5473-ad33-4f2f-a62e-6c112e2054b7")
 	)
 	(no_connect
@@ -8728,8 +8670,8 @@
 		(uuid "75421a71-276c-4c2a-a77c-46588b8e7614")
 	)
 	(no_connect
-		(at 147.32 184.15)
-		(uuid "8b5de3e9-9c44-4742-ae69-dc2a20e9df33")
+		(at 147.32 182.88)
+		(uuid "78bdb356-b387-4d95-8e86-7ab93a28472a")
 	)
 	(no_connect
 		(at 60.96 184.15)
@@ -10183,9 +10125,9 @@
 		)
 		(uuid "6ef7514b-82e8-4b1f-b6d8-5caa7e3f8d75")
 	)
-	(global_label "USB_DP_18"
+	(global_label "PWM_14"
 		(shape bidirectional)
-		(at 74.93 175.26 0)
+		(at 147.32 177.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10193,9 +10135,9 @@
 			)
 			(justify left)
 		)
-		(uuid "0c0b4908-1794-4c8d-88bf-2e623c5a6f49")
+		(uuid "07061dbd-1393-4d76-bb48-ea52f1ec47d8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.7307 175.26 0)
+			(at 158.9759 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10205,29 +10147,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_8"
-		(shape bidirectional)
-		(at 129.54 158.75 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0d2784fb-d4bb-4e98-bd30-27b79a6e2f61")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.7911 158.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI_CS_PWM_34"
+	(global_label "SPI_CS_PWM_32"
 		(shape bidirectional)
 		(at 39.37 87.63 180)
 		(fields_autoplaced yes)
@@ -10249,29 +10169,7 @@
 			)
 		)
 	)
-	(global_label "PWM_27_O"
-		(shape bidirectional)
-		(at 165.1 53.34 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "0dde76d8-c40b-467e-baa4-79e182087994")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.1 67.294 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWM_19"
+	(global_label "PWM_17"
 		(shape bidirectional)
 		(at 74.93 87.63 0)
 		(fields_autoplaced yes)
@@ -10293,9 +10191,9 @@
 			)
 		)
 	)
-	(global_label "USB_DM_17"
+	(global_label "PWM_13"
 		(shape bidirectional)
-		(at 147.32 171.45 0)
+		(at 147.32 180.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10303,31 +10201,9 @@
 			)
 			(justify left)
 		)
-		(uuid "128654fa-158f-4a1d-86f9-59f74325f4ce")
+		(uuid "17643980-75ff-4064-a008-3e185cf063a9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.3021 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_DP_18"
-		(shape bidirectional)
-		(at 147.32 168.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "16a101ea-1fc4-4dd2-8bc7-b816e5738687")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.1207 168.91 0)
+			(at 158.9759 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10381,29 +10257,7 @@
 			)
 		)
 	)
-	(global_label "SD_MISO_11"
-		(shape bidirectional)
-		(at 129.54 151.13 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "1fab230f-ea9e-4450-9eb3-476fd2ea1379")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.0136 151.13 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SPI_MISO_35"
+	(global_label "SPI_MISO_33"
 		(shape bidirectional)
 		(at 74.93 128.27 0)
 		(fields_autoplaced yes)
@@ -10491,7 +10345,7 @@
 			)
 		)
 	)
-	(global_label "SPI_SCK_37"
+	(global_label "SPI_SCK_35"
 		(shape bidirectional)
 		(at 74.93 125.73 0)
 		(fields_autoplaced yes)
@@ -10513,7 +10367,7 @@
 			)
 		)
 	)
-	(global_label "PWM_27"
+	(global_label "PWM_26"
 		(shape bidirectional)
 		(at 74.93 110.49 0)
 		(fields_autoplaced yes)
@@ -10601,51 +10455,7 @@
 			)
 		)
 	)
-	(global_label "PWM_30"
-		(shape bidirectional)
-		(at 147.32 133.35 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "30019613-80c4-4cf7-a07f-3014b2120db1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.9759 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape bidirectional)
-		(at 147.32 100.33 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "33c46594-9700-4958-87cc-89a375694fda")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.9241 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "UART_RX_21"
+	(global_label "UART_RX_19"
 		(shape bidirectional)
 		(at 39.37 100.33 180)
 		(fields_autoplaced yes)
@@ -10689,9 +10499,31 @@
 			)
 		)
 	)
+	(global_label "SD_MOSI_10"
+		(shape bidirectional)
+		(at 129.54 153.67 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "381b8dee-ef0a-4fbf-8b91-73b9d93fa60f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.0136 153.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWM_2"
 		(shape bidirectional)
-		(at 129.54 179.07 180)
+		(at 129.54 177.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10701,7 +10533,7 @@
 		)
 		(uuid "3bdb7bfc-5b14-4694-9fd5-4fc3b3e4c2bd")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.0936 179.07 0)
+			(at 119.0936 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10724,28 +10556,6 @@
 		(uuid "3d6d80f6-d646-479d-9629-84fadaa4a0c6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 90.9403 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_24"
-		(shape bidirectional)
-		(at 147.32 151.13 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "403a40b4-5150-490d-b4f9-6d2c662ac5f8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.2784 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10799,9 +10609,9 @@
 			)
 		)
 	)
-	(global_label "UART_RX_21"
+	(global_label "UART_RX_19"
 		(shape bidirectional)
-		(at 147.32 158.75 0)
+		(at 147.32 162.56 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10811,7 +10621,7 @@
 		)
 		(uuid "43e8a6eb-6ede-4fe5-bca4-baffca15e824")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.9069 158.75 0)
+			(at 162.9069 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10821,7 +10631,7 @@
 			)
 		)
 	)
-	(global_label "PWM_29"
+	(global_label "PWM_24"
 		(shape bidirectional)
 		(at 74.93 105.41 0)
 		(fields_autoplaced yes)
@@ -10843,31 +10653,9 @@
 			)
 		)
 	)
-	(global_label "PWM_15"
+	(global_label "GPIO_21"
 		(shape bidirectional)
-		(at 147.32 176.53 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "453057d7-40b5-4a01-9568-792ecef17615")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.9759 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_23"
-		(shape bidirectional)
-		(at 147.32 153.67 0)
+		(at 147.32 157.48 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10877,7 +10665,29 @@
 		)
 		(uuid "45eae84e-79d6-4791-b8a7-b98bd9ed6ac7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.2784 153.67 0)
+			(at 159.2784 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM_25_O"
+		(shape bidirectional)
+		(at 147.32 144.78 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "4c86c28b-9827-4482-ae7a-98961a08ec5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.274 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10909,9 +10719,9 @@
 			)
 		)
 	)
-	(global_label "CAN_TX_25"
+	(global_label "PWM_23"
 		(shape bidirectional)
-		(at 147.32 148.59 0)
+		(at 147.32 152.4 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10921,7 +10731,7 @@
 		)
 		(uuid "500944a6-32d1-4d43-80ac-6eef02f69c90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.6369 148.59 0)
+			(at 158.9759 152.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10931,7 +10741,7 @@
 			)
 		)
 	)
-	(global_label "PWM_15"
+	(global_label "PWM_13"
 		(shape bidirectional)
 		(at 39.37 95.25 180)
 		(fields_autoplaced yes)
@@ -10953,7 +10763,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_32"
+	(global_label "GPIO_30"
 		(shape bidirectional)
 		(at 39.37 107.95 180)
 		(fields_autoplaced yes)
@@ -10971,6 +10781,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_TX_28"
+		(shape bidirectional)
+		(at 147.32 137.16 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "5d94d017-ac34-43bd-ac20-b9cd3ea9b238")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.6369 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -10999,7 +10831,7 @@
 	)
 	(global_label "PWM_7"
 		(shape bidirectional)
-		(at 129.54 166.37 180)
+		(at 129.54 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11009,7 +10841,7 @@
 		)
 		(uuid "65af43a6-c1b7-4784-8430-bec955310138")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.0936 166.37 0)
+			(at 119.0936 165.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11019,9 +10851,9 @@
 			)
 		)
 	)
-	(global_label "SDA"
+	(global_label "SD_SCK_22"
 		(shape bidirectional)
-		(at 147.32 102.87 0)
+		(at 147.32 154.94 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11029,14 +10861,58 @@
 			)
 			(justify left)
 		)
-		(uuid "67a2212c-4cb8-4b8a-acde-8e87f281c7a6")
+		(uuid "678b0fef-f246-4fd4-9e48-cb89f8a9de69")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.9846 102.87 0)
+			(at 161.9997 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "I2C_SCL_A5"
+		(shape bidirectional)
+		(at 147.32 100.33 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6c5e7b2a-537c-40a5-a245-e25fe2a8b264")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.2417 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_MISO_11"
+		(shape bidirectional)
+		(at 129.54 151.13 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d0be510-d92a-413e-885d-efa06a80bc10")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.0136 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11063,28 +10939,6 @@
 			)
 		)
 	)
-	(global_label "PWM_27_O"
-		(shape bidirectional)
-		(at 158.75 36.83 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6f61a2db-7149-4e4c-a5be-56fb08f3d787")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.704 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "OPAMP_N_A2"
 		(shape bidirectional)
 		(at 74.93 52.07 0)
@@ -11107,9 +10961,9 @@
 			)
 		)
 	)
-	(global_label "UART_TX_20"
+	(global_label "PWM_15"
 		(shape bidirectional)
-		(at 147.32 161.29 0)
+		(at 147.32 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11117,9 +10971,9 @@
 			)
 			(justify left)
 		)
-		(uuid "741ede10-8363-4b7b-bd56-0826ad9b6138")
+		(uuid "70adf328-f514-487d-8ef9-fd3c306699ec")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 162.6045 161.29 0)
+			(at 158.9759 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11129,7 +10983,29 @@
 			)
 		)
 	)
-	(global_label "GPIO_33"
+	(global_label "UART_TX_18"
+		(shape bidirectional)
+		(at 147.32 165.1 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "741ede10-8363-4b7b-bd56-0826ad9b6138")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.6045 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_31"
 		(shape bidirectional)
 		(at 39.37 110.49 180)
 		(fields_autoplaced yes)
@@ -11195,29 +11071,7 @@
 			)
 		)
 	)
-	(global_label "USB_DM_17"
-		(shape bidirectional)
-		(at 74.93 172.72 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7eeeed42-d18d-4d5a-b65b-c67e02082a97")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.9121 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB_DP_18"
+	(global_label "USB_DP"
 		(shape bidirectional)
 		(at 74.93 80.01 0)
 		(fields_autoplaced yes)
@@ -11229,7 +11083,7 @@
 		)
 		(uuid "7f11705d-e7ed-4c31-bb3b-9d3aa955b014")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.7307 80.01 0)
+			(at 86.3441 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11283,7 +11137,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_23"
+	(global_label "GPIO_21"
 		(shape bidirectional)
 		(at 39.37 67.31 180)
 		(fields_autoplaced yes)
@@ -11307,7 +11161,7 @@
 	)
 	(global_label "GPIO_5"
 		(shape bidirectional)
-		(at 129.54 171.45 180)
+		(at 129.54 170.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11317,7 +11171,51 @@
 		)
 		(uuid "872f2457-4dd2-446f-a08d-1fd41e4e4ba5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 118.7911 171.45 0)
+			(at 118.7911 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM_16"
+		(shape bidirectional)
+		(at 147.32 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "875acc19-1582-4d27-b1f1-a869042f1d0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.9759 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO_8"
+		(shape bidirectional)
+		(at 129.54 158.75 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "887eaf5b-b94d-4610-a2e8-1ac58f82e614")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 118.7911 158.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11371,7 +11269,7 @@
 			)
 		)
 	)
-	(global_label "PWM_13"
+	(global_label "PWM_15"
 		(shape bidirectional)
 		(at 74.93 72.39 0)
 		(fields_autoplaced yes)
@@ -11415,7 +11313,29 @@
 			)
 		)
 	)
-	(global_label "SPI_MOSI_36"
+	(global_label "SD_CS_9"
+		(shape bidirectional)
+		(at 129.54 156.21 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8fd51afe-7b42-4ce9-a422-63186502d8d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.3398 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SPI_MOSI_34"
 		(shape bidirectional)
 		(at 74.93 130.81 0)
 		(fields_autoplaced yes)
@@ -11437,9 +11357,9 @@
 			)
 		)
 	)
-	(global_label "PWM_12"
+	(global_label "PWM_25_O"
 		(shape bidirectional)
-		(at 129.54 148.59 180)
+		(at 165.1 53.34 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11447,9 +11367,9 @@
 			)
 			(justify right)
 		)
-		(uuid "9734a5de-5ba9-47e7-85ec-d7d9aa901bd8")
+		(uuid "97d729e1-99ac-4de4-8639-6767d34bded8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.8841 148.59 0)
+			(at 165.1 67.294 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11459,7 +11379,7 @@
 			)
 		)
 	)
-	(global_label "USB_DM_17"
+	(global_label "USB_DM"
 		(shape bidirectional)
 		(at 74.93 77.47 0)
 		(fields_autoplaced yes)
@@ -11471,7 +11391,7 @@
 		)
 		(uuid "98eb577c-7bae-45b3-a549-3d6175738475")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 89.9121 77.47 0)
+			(at 86.5255 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11503,29 +11423,7 @@
 			)
 		)
 	)
-	(global_label "SD_MOSI_10"
-		(shape bidirectional)
-		(at 129.54 153.67 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a4c545e1-dcb4-46d7-9d75-24fb9bd572ff")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.0136 153.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_TX_25"
+	(global_label "CAN_TX_28"
 		(shape bidirectional)
 		(at 74.93 115.57 0)
 		(fields_autoplaced yes)
@@ -11635,7 +11533,7 @@
 			)
 		)
 	)
-	(global_label "CAN_RX_26"
+	(global_label "CAN_RX_27"
 		(shape bidirectional)
 		(at 74.93 113.03 0)
 		(fields_autoplaced yes)
@@ -11679,7 +11577,7 @@
 			)
 		)
 	)
-	(global_label "SPI_CS_PWM_34"
+	(global_label "SPI_CS_PWM_32"
 		(shape bidirectional)
 		(at 147.32 118.11 0)
 		(fields_autoplaced yes)
@@ -11701,9 +11599,9 @@
 			)
 		)
 	)
-	(global_label "PWM_19"
+	(global_label "PWM_17"
 		(shape bidirectional)
-		(at 147.32 163.83 0)
+		(at 147.32 167.64 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11713,7 +11611,7 @@
 		)
 		(uuid "b1f73cd0-529f-4bed-bd18-f92eb6c19de2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.9759 163.83 0)
+			(at 158.9759 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11745,7 +11643,7 @@
 			)
 		)
 	)
-	(global_label "PWM_30"
+	(global_label "PWM_23"
 		(shape bidirectional)
 		(at 74.93 102.87 0)
 		(fields_autoplaced yes)
@@ -11791,7 +11689,7 @@
 	)
 	(global_label "PWM_6"
 		(shape bidirectional)
-		(at 129.54 168.91 180)
+		(at 129.54 167.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11801,7 +11699,7 @@
 		)
 		(uuid "ba2e5ef2-63d5-4588-823a-5bcccbaeeafb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.0936 168.91 0)
+			(at 119.0936 167.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11829,28 +11727,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_CS_9"
-		(shape bidirectional)
-		(at 129.54 156.21 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "bfcb4968-1d1b-4804-b25a-646902be7c13")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 117.3398 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -11899,24 +11775,24 @@
 			)
 		)
 	)
-	(global_label "PWM_27_O"
+	(global_label "PWM_25_O"
 		(shape bidirectional)
-		(at 147.32 140.97 0)
+		(at 168.91 36.83 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "c716ad6d-8628-4272-bfca-a9c245a573a3")
+		(uuid "c61fd617-8a30-4937-ba96-6f4f7fc0d2d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.274 140.97 0)
+			(at 168.91 50.784 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11943,7 +11819,7 @@
 			)
 		)
 	)
-	(global_label "SD_SCK_31"
+	(global_label "SD_SCK_22"
 		(shape bidirectional)
 		(at 74.93 100.33 0)
 		(fields_autoplaced yes)
@@ -11989,7 +11865,7 @@
 	)
 	(global_label "PWM_4"
 		(shape bidirectional)
-		(at 129.54 173.99 180)
+		(at 129.54 172.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11999,7 +11875,7 @@
 		)
 		(uuid "ce2025f7-64f6-4357-83b8-91f177f06229")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.0936 173.99 0)
+			(at 119.0936 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12009,31 +11885,9 @@
 			)
 		)
 	)
-	(global_label "PWM_29"
+	(global_label "GPIO_29"
 		(shape bidirectional)
-		(at 147.32 135.89 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ced3c58a-9271-4cf3-90b7-010601c2f82b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.9759 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_SCK_31"
-		(shape bidirectional)
-		(at 147.32 130.81 0)
+		(at 147.32 134.62 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12043,7 +11897,7 @@
 		)
 		(uuid "d0640e8a-ff37-41b3-bbef-7b0d58efcb68")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.9997 130.81 0)
+			(at 159.2784 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12075,7 +11929,51 @@
 			)
 		)
 	)
-	(global_label "UART_TX_20"
+	(global_label "I2C_SDA_A4"
+		(shape bidirectional)
+		(at 147.32 102.87 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d0aa751f-ba05-4f2d-91fc-02e58c03413b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.3022 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM_25"
+		(shape bidirectional)
+		(at 158.75 35.56 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d191e597-b7b2-4411-b0a6-1d55fd9c15c4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.75 23.9041 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "UART_TX_18"
 		(shape bidirectional)
 		(at 39.37 97.79 180)
 		(fields_autoplaced yes)
@@ -12097,7 +11995,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_24"
+	(global_label "GPIO_29"
 		(shape bidirectional)
 		(at 39.37 105.41 180)
 		(fields_autoplaced yes)
@@ -12121,7 +12019,7 @@
 	)
 	(global_label "PWM_0"
 		(shape bidirectional)
-		(at 129.54 184.15 180)
+		(at 129.54 182.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12131,7 +12029,7 @@
 		)
 		(uuid "d4b1a77a-4b1a-4ef4-a3bd-86d2868eabc5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.0936 184.15 0)
+			(at 119.0936 182.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12163,9 +12061,9 @@
 			)
 		)
 	)
-	(global_label "PWM_14"
+	(global_label "USB_DP"
 		(shape bidirectional)
-		(at 147.32 179.07 0)
+		(at 74.93 175.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12173,9 +12071,9 @@
 			)
 			(justify left)
 		)
-		(uuid "d6b34c72-56c8-4f0f-9794-7a5e4af74d8b")
+		(uuid "d5ff5d6c-3706-4a5e-9818-e844a7c69f19")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.9759 179.07 0)
+			(at 86.3441 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12209,7 +12107,7 @@
 	)
 	(global_label "PWM_1"
 		(shape bidirectional)
-		(at 129.54 181.61 180)
+		(at 129.54 180.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12219,34 +12117,12 @@
 		)
 		(uuid "db569311-dffa-442c-bf68-4239a716011a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.0936 181.61 0)
+			(at 119.0936 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "PWM_13"
-		(shape bidirectional)
-		(at 147.32 181.61 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "dcde6f99-b866-4e58-816c-6ffaf535fc66")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.9759 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -12273,9 +12149,9 @@
 			)
 		)
 	)
-	(global_label "GPIO_22"
+	(global_label "GPIO_20"
 		(shape bidirectional)
-		(at 147.32 156.21 0)
+		(at 147.32 160.02 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12285,7 +12161,7 @@
 		)
 		(uuid "dee9c0af-55a1-40f6-b524-153cf2747ed8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.2784 156.21 0)
+			(at 159.2784 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12317,7 +12193,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_22"
+	(global_label "GPIO_20"
 		(shape bidirectional)
 		(at 39.37 102.87 180)
 		(fields_autoplaced yes)
@@ -12339,9 +12215,9 @@
 			)
 		)
 	)
-	(global_label "PWM_28"
+	(global_label "PWM_26"
 		(shape bidirectional)
-		(at 147.32 138.43 0)
+		(at 147.32 142.24 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12351,7 +12227,7 @@
 		)
 		(uuid "e0f7c790-c7d1-43d8-a68b-78b1c836fdc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.9759 138.43 0)
+			(at 158.9759 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12363,7 +12239,7 @@
 	)
 	(global_label "PWM_3"
 		(shape bidirectional)
-		(at 129.54 176.53 180)
+		(at 129.54 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12373,7 +12249,7 @@
 		)
 		(uuid "e1f0a547-87d0-49a6-9c4a-fb80316056e8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.0936 176.53 0)
+			(at 119.0936 175.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12383,7 +12259,7 @@
 			)
 		)
 	)
-	(global_label "SPI_MISO_35"
+	(global_label "SPI_MISO_33"
 		(shape bidirectional)
 		(at 147.32 115.57 0)
 		(fields_autoplaced yes)
@@ -12396,6 +12272,28 @@
 		(uuid "e2214281-21a5-42f3-93b8-5bac7b0ebbb9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 163.4512 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CAN_RX_27"
+		(shape bidirectional)
+		(at 147.32 139.7 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e4248d65-248b-4b7a-be53-6d8e24607f15")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.9393 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12449,7 +12347,7 @@
 			)
 		)
 	)
-	(global_label "SPI_MOSI_36"
+	(global_label "SPI_MOSI_34"
 		(shape bidirectional)
 		(at 147.32 113.03 0)
 		(fields_autoplaced yes)
@@ -12471,29 +12369,7 @@
 			)
 		)
 	)
-	(global_label "PWM_27"
-		(shape bidirectional)
-		(at 158.75 35.56 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "e868417a-4fae-417d-b816-180fccc8ebef")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.75 23.9041 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "GPIO_32"
+	(global_label "GPIO_30"
 		(shape bidirectional)
 		(at 147.32 123.19 0)
 		(fields_autoplaced yes)
@@ -12537,7 +12413,7 @@
 			)
 		)
 	)
-	(global_label "PWM_28"
+	(global_label "PWM_25"
 		(shape bidirectional)
 		(at 74.93 107.95 0)
 		(fields_autoplaced yes)
@@ -12559,31 +12435,9 @@
 			)
 		)
 	)
-	(global_label "PWM_16"
+	(global_label "PWM_24"
 		(shape bidirectional)
-		(at 147.32 173.99 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "eb75a7be-a084-4244-a734-c38e1d7e6ccd")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.9759 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "CAN_RX_26"
-		(shape bidirectional)
-		(at 147.32 143.51 0)
+		(at 147.32 147.32 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12593,7 +12447,7 @@
 		)
 		(uuid "f14326ab-0906-45b6-a4f4-498c4095a8eb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 161.9393 143.51 0)
+			(at 158.9759 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12625,7 +12479,7 @@
 			)
 		)
 	)
-	(global_label "SPI_SCK_37"
+	(global_label "SPI_SCK_35"
 		(shape bidirectional)
 		(at 147.32 110.49 0)
 		(fields_autoplaced yes)
@@ -12691,7 +12545,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_33"
+	(global_label "GPIO_31"
 		(shape bidirectional)
 		(at 147.32 120.65 0)
 		(fields_autoplaced yes)
@@ -12709,6 +12563,50 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "USB_DM"
+		(shape bidirectional)
+		(at 74.93 172.72 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f8cde796-1d86-4675-8a65-f03ed59a7747")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 86.5255 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "PWM_12"
+		(shape bidirectional)
+		(at 129.54 148.59 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f939ab54-96d3-48ab-9647-97028cd1c941")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.8841 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -14769,7 +14667,7 @@
 			(uuid "0e5eb846-569a-4c33-bf1d-87c3889edf8b")
 		)
 		(instances
-			(project ""
+			(project "Hackboard"
 				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
 					(reference "J3")
 					(unit 1)
@@ -16536,6 +16434,129 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_01x20")
+		(at 142.24 157.48 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7d2e56c7-fb75-414c-b379-d56696c6be01")
+		(property "Reference" "J8"
+			(at 142.24 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x20"
+			(at 142.24 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Headers:PinSocket_1x20_P2.54mm_Vertical"
+			(at 142.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 142.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 142.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "13"
+			(uuid "7aad8e8f-40f0-4c04-9a6d-ef52b7d56b3d")
+		)
+		(pin "10"
+			(uuid "c1129af1-12ef-4647-849a-e02dd70e3977")
+		)
+		(pin "15"
+			(uuid "71cd6e9a-38d3-40f9-952d-49e42738f4fe")
+		)
+		(pin "17"
+			(uuid "89578001-d8aa-46fd-9a59-497aa9b8a25f")
+		)
+		(pin "18"
+			(uuid "1f6144a7-033b-4daa-96de-ab1985560124")
+		)
+		(pin "19"
+			(uuid "35a986ab-1f51-4f79-b5b5-11403b0dfb26")
+		)
+		(pin "2"
+			(uuid "352b160e-9666-4ac4-94e8-d69deb3c1db0")
+		)
+		(pin "20"
+			(uuid "8bce0065-2b57-4fd4-8eb7-1de8d42af0d6")
+		)
+		(pin "3"
+			(uuid "50599ca6-bfb3-4156-8962-7bb671194983")
+		)
+		(pin "4"
+			(uuid "87698ab9-d14c-4fcc-add6-4865427c3b49")
+		)
+		(pin "5"
+			(uuid "f86b60e4-65b1-42fe-9caa-c4371ab531b6")
+		)
+		(pin "6"
+			(uuid "24ef7937-8073-4814-a776-a2615e4f9923")
+		)
+		(pin "7"
+			(uuid "8c6a482c-75f3-4ed1-ad30-8111fe305455")
+		)
+		(pin "8"
+			(uuid "4034c0e9-292d-4d46-ae39-dc311334be0b")
+		)
+		(pin "9"
+			(uuid "effc8b4f-5603-4549-82a3-5a003519e6aa")
+		)
+		(pin "16"
+			(uuid "4795a536-452b-4d04-b40a-325c9446035f")
+		)
+		(pin "12"
+			(uuid "58bb82a7-ec34-4664-96f0-09f7a7f32b70")
+		)
+		(pin "11"
+			(uuid "2fde4e09-4082-49fd-859e-cc496b8f84e2")
+		)
+		(pin "1"
+			(uuid "eaa076c2-7cf5-44c8-a683-fcb829f578c9")
+		)
+		(pin "14"
+			(uuid "942c3dfd-0d8c-40b6-b952-c9f3c3b40403")
+		)
+		(instances
+			(project "Hackboard"
+				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
+					(reference "J8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 180.34 139.7 0)
 		(mirror y)
@@ -16720,6 +16741,74 @@
 			(project "Hackboard"
 				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Bridged")
+		(at 163.83 36.83 0)
+		(unit 1)
+		(exclude_from_sim yes)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "87e68ae7-ff5e-4ced-92fe-3726f77f6dce")
+		(property "Reference" "JP2"
+			(at 166.116 34.544 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Bridged"
+			(at 163.83 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
+			(at 163.83 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 163.83 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 163.83 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eb9995d7-03bf-4546-9cd8-2b636dad5731")
+		)
+		(pin "1"
+			(uuid "543cc007-5fd9-4a04-9ee0-2d541c5f6c6b")
+		)
+		(instances
+			(project "Hackboard"
+				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -18564,7 +18653,7 @@
 			(uuid "5d14ccf9-497d-40a3-a2f6-9a1b3556d7cc")
 		)
 		(instances
-			(project ""
+			(project "Hackboard"
 				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
 					(reference "C19")
 					(unit 1)
@@ -18591,7 +18680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
+		(property "Value" "+3V3"
 			(at 125.73 110.4899 90)
 			(effects
 				(font
@@ -19015,7 +19104,7 @@
 			(uuid "1c40220b-ebef-4fd7-adae-60bc84519e32")
 		)
 		(instances
-			(project ""
+			(project "Hackboard"
 				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
 					(reference "Y1")
 					(unit 1)
@@ -19670,135 +19759,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x22")
-		(at 142.24 156.21 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eb36abf5-188e-45fb-9889-d0b342a9023e")
-		(property "Reference" "J8"
-			(at 142.24 127.508 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x22"
-			(at 142.24 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Headers:PinSocket_1x22_P2.54mm_Vertical"
-			(at 142.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 142.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x22, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 142.24 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "ed4fc0ec-7f98-4cd7-8123-46cffc377f42")
-		)
-		(pin "13"
-			(uuid "dcad6e8d-2aa6-4877-a90d-ae426f661d50")
-		)
-		(pin "12"
-			(uuid "448ca3d1-a991-4a12-8952-2315b592a4b2")
-		)
-		(pin "14"
-			(uuid "48d907bf-cb80-4267-9c9e-dcbfe666315d")
-		)
-		(pin "1"
-			(uuid "f6264023-c53b-43c8-b62d-695e7a63ea20")
-		)
-		(pin "8"
-			(uuid "b361902c-7e7e-4a0a-8648-88cdf49d986b")
-		)
-		(pin "4"
-			(uuid "9435d0a1-746b-47b5-b376-d31ea1915800")
-		)
-		(pin "19"
-			(uuid "30a6722e-45ee-4df3-bdde-e48dfe7c108c")
-		)
-		(pin "7"
-			(uuid "de34782b-dc87-46c2-9109-5ac60b611a24")
-		)
-		(pin "6"
-			(uuid "a9c403d6-0749-4068-a128-e06a6c4c75f6")
-		)
-		(pin "21"
-			(uuid "8c369797-9391-459f-9a2b-b4cd29a1c8f5")
-		)
-		(pin "3"
-			(uuid "4cd2c32f-8ce9-4402-9a44-468697011870")
-		)
-		(pin "10"
-			(uuid "ddc1bcc3-e6e5-489f-bc72-ce5d236f9bef")
-		)
-		(pin "18"
-			(uuid "35950505-4405-4519-9fac-282250ed468b")
-		)
-		(pin "2"
-			(uuid "984c6919-8118-43d9-96ee-e99bbf514a52")
-		)
-		(pin "9"
-			(uuid "8275de68-69e6-4b68-b5ad-5d756dc0b2bd")
-		)
-		(pin "15"
-			(uuid "79d5151d-0605-4ad3-9199-265cae909f3c")
-		)
-		(pin "20"
-			(uuid "a6dacc72-3778-41e0-9905-936bb73f2784")
-		)
-		(pin "17"
-			(uuid "68084d31-92bc-4796-b6a6-85c48e780e0f")
-		)
-		(pin "16"
-			(uuid "593e88c6-9aa6-4d28-8623-dcb336080b35")
-		)
-		(pin "22"
-			(uuid "fa533c4a-3a72-4eae-8d8c-1a39c1f4067e")
-		)
-		(pin "11"
-			(uuid "8816a47e-a6c4-4e8b-9879-8dee78d62aba")
-		)
-		(instances
-			(project ""
-				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
-					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 85.09 22.86 0)
 		(unit 1)
@@ -20023,7 +19983,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x08")
-		(at 134.62 173.99 0)
+		(at 134.62 172.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20031,7 +19991,7 @@
 		(dnp no)
 		(uuid "eeff329c-3e92-4102-ac45-96b98d9c0983")
 		(property "Reference" "J4"
-			(at 133.604 163.83 0)
+			(at 133.604 162.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20040,7 +20000,7 @@
 			)
 		)
 		(property "Value" "Conn_01x08"
-			(at 137.16 176.5299 0)
+			(at 137.16 175.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20050,7 +20010,7 @@
 			)
 		)
 		(property "Footprint" "Headers:PinSocket_1x08_P2.54mm_Vertical"
-			(at 134.62 173.99 0)
+			(at 134.62 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20059,7 +20019,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 173.99 0)
+			(at 134.62 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20068,7 +20028,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 134.62 173.99 0)
+			(at 134.62 172.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20101,7 +20061,7 @@
 			(uuid "92f6399c-b09b-42a1-b3c4-76391781044b")
 		)
 		(instances
-			(project ""
+			(project "Hackboard"
 				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
 					(reference "J4")
 					(unit 1)

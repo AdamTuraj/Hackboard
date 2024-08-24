@@ -1,4 +1,4 @@
-(footprint "PinSocket_1x22_P2.54mm_Vertical"
+(footprint "PinSocket_1x20_P2.54mm_Vertical"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -27,7 +27,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "PinSocket_1x20_P2.54mm_Vertical"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -68,8 +68,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -1.33 -1.25)
-		(end 0 -1.25)
+		(start -1.33 -1.427)
+		(end 0 -1.427)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -78,8 +78,8 @@
 		(uuid "e6f88e40-5a8f-4fdb-8ee5-8f68d1d293a1")
 	)
 	(fp_line
-		(start -1.33 0.08)
-		(end -1.33 -1.25)
+		(start -1.33 -0.097)
+		(end -1.33 -1.427)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -89,7 +89,7 @@
 	)
 	(fp_line
 		(start -1.33 1.27)
-		(end -1.33 54.5)
+		(end -1.33 49.42)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -108,8 +108,8 @@
 		(uuid "eaaccfe1-d524-4c15-aa32-9577c7e9b401")
 	)
 	(fp_line
-		(start -1.33 54.5)
-		(end 1.33 54.5)
+		(start -1.33 49.42)
+		(end 1.33 49.42)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -118,8 +118,8 @@
 		(uuid "025399cf-51c8-418b-8c0b-9bcb8bce84d7")
 	)
 	(fp_line
-		(start -1.8 -1.8)
-		(end 1.75 -1.8)
+		(start -1.8 -2.032)
+		(end 1.75 -2.032)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -128,8 +128,8 @@
 		(uuid "43f6a1fe-fb13-40fe-87d3-63051ff2c9ff")
 	)
 	(fp_line
-		(start -1.8 55)
-		(end -1.8 -1.8)
+		(start -1.8 49.92)
+		(end -1.8 -2.032)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -138,8 +138,8 @@
 		(uuid "2f0f8d10-8b73-4525-a158-56cde5d1729e")
 	)
 	(fp_line
-		(start 1.75 -1.8)
-		(end 1.75 55)
+		(start 1.75 -2.032)
+		(end 1.75 49.92)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -148,8 +148,8 @@
 		(uuid "6a4baa34-d853-4316-afcc-5749c2e930e9")
 	)
 	(fp_line
-		(start 1.75 55)
-		(end -1.775 55)
+		(start 1.75 49.92)
+		(end -1.775 49.92)
 		(stroke
 			(width 0.05)
 			(type solid)
@@ -158,8 +158,8 @@
 		(uuid "49de251f-e512-404d-86e9-7986975ae9ce")
 	)
 	(fp_line
-		(start -1.27 -1.27)
-		(end 0.635 -1.27)
+		(start -1.27 -1.524)
+		(end 0.635 -1.524)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -168,8 +168,8 @@
 		(uuid "ace9eeaa-62b7-4ef7-b797-e2619536b39e")
 	)
 	(fp_line
-		(start -1.27 54.5)
-		(end -1.27 -1.27)
+		(start -1.27 49.42)
+		(end -1.27 -1.524)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -178,8 +178,8 @@
 		(uuid "ea34ca6e-e9a4-4bae-8b01-d5638325c3a5")
 	)
 	(fp_line
-		(start 0.635 -1.27)
-		(end 1.27 -0.635)
+		(start 0.635 -1.524)
+		(end 1.27 -0.889)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -188,8 +188,8 @@
 		(uuid "158b3168-c17c-45aa-8893-1f54bfdf6036")
 	)
 	(fp_line
-		(start 1.27 -0.635)
-		(end 1.27 54.5)
+		(start 1.27 -0.889)
+		(end 1.27 49.42)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -198,8 +198,8 @@
 		(uuid "6de529b0-595a-491d-b64d-f4a148405846")
 	)
 	(fp_line
-		(start 1.27 54.5)
-		(end -1.27 54.5)
+		(start 1.27 49.42)
+		(end -1.27 49.42)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -208,7 +208,7 @@
 		(uuid "184e9a15-7318-481e-94d6-534f30165c2d")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 29.21 90)
+		(at 0 24.13 90)
 		(layer "F.Fab")
 		(uuid "6169ff87-f2a9-4dac-8494-d17b29e3d2cc")
 		(effects
@@ -219,7 +219,7 @@
 		)
 	)
 	(pad "1" thru_hole roundrect
-		(at 0 53.34)
+		(at 0 48.26)
 		(size 5 1.7)
 		(drill 1
 			(offset 1.6 0)
@@ -230,7 +230,7 @@
 		(uuid "6caabe7b-b9bc-44e2-9d32-8f4505e56962")
 	)
 	(pad "2" thru_hole roundrect
-		(at 0 50.8)
+		(at 0 45.72)
 		(size 5 1.7)
 		(drill 1
 			(offset 1.6 0)
@@ -241,7 +241,7 @@
 		(uuid "0d7d1bdc-61d3-4f52-b55b-e3d1ad7f841a")
 	)
 	(pad "3" thru_hole roundrect
-		(at 0 48.26)
+		(at 0 43.18)
 		(size 5 1.7)
 		(drill 1
 			(offset 1.6 0)
@@ -252,7 +252,7 @@
 		(uuid "03cc0556-d1ad-414b-9f50-30e3c8eb8121")
 	)
 	(pad "4" thru_hole roundrect
-		(at 0 45.72)
+		(at 0 40.64)
 		(size 5 1.7)
 		(drill 1
 			(offset 1.6 0)
@@ -263,7 +263,7 @@
 		(uuid "911a327e-5347-469b-9e88-ddcaacc61f5d")
 	)
 	(pad "5" thru_hole roundrect
-		(at 0 43.18)
+		(at 0 38.1)
 		(size 5 1.7)
 		(drill 1
 			(offset 1.6 0)
@@ -274,7 +274,7 @@
 		(uuid "f447da2e-7c38-48a9-9dec-40a04704f0f9")
 	)
 	(pad "6" thru_hole roundrect
-		(at 0 40.64)
+		(at 0 35.56)
 		(size 5 1.7)
 		(drill 1
 			(offset 1.6 0)
@@ -285,7 +285,7 @@
 		(uuid "1c02216d-629d-48d8-b5b2-79a3dcb9dc04")
 	)
 	(pad "7" thru_hole roundrect
-		(at 0 38.1)
+		(at 0 33.02)
 		(size 5 1.7)
 		(drill 1
 			(offset 1.6 0)
@@ -296,7 +296,7 @@
 		(uuid "07e1c446-51cd-4d89-a1fa-dab48e5be051")
 	)
 	(pad "8" thru_hole roundrect
-		(at 0 35.56)
+		(at 0 30.48)
 		(size 5 1.7)
 		(drill 1
 			(offset 1.6 0)
@@ -307,7 +307,7 @@
 		(uuid "4ebff7d2-04c5-42af-b381-729c5e05741b")
 	)
 	(pad "9" thru_hole roundrect
-		(at 0 33.02)
+		(at 0 27.94)
 		(size 5 1.7)
 		(drill 1
 			(offset 1.6 0)
@@ -318,7 +318,7 @@
 		(uuid "243d1dad-b34f-4570-b691-dc509bb6dc53")
 	)
 	(pad "10" thru_hole roundrect
-		(at 0 30.48)
+		(at 0 25.4)
 		(size 5 1.7)
 		(drill 1
 			(offset 1.6 0)
@@ -329,7 +329,7 @@
 		(uuid "f908a6ea-7021-4775-b931-37f276e09373")
 	)
 	(pad "11" thru_hole roundrect
-		(at 0 27.94)
+		(at 0 22.86)
 		(size 5 1.7)
 		(drill 1
 			(offset 1.6 0)
@@ -340,7 +340,7 @@
 		(uuid "578fa61a-4f78-4f2b-9fe5-3d8f40ddbbde")
 	)
 	(pad "12" thru_hole roundrect
-		(at 0 25.4)
+		(at 0 20.32)
 		(size 5 1.7)
 		(drill 1
 			(offset 1.6 0)
@@ -351,7 +351,7 @@
 		(uuid "b8a96bde-3afa-47eb-b076-9f67fd450739")
 	)
 	(pad "13" thru_hole roundrect
-		(at 0 22.819501)
+		(at 0 17.739501)
 		(size 5 1.7)
 		(drill 1
 			(offset 1.6 0)
@@ -362,7 +362,7 @@
 		(uuid "a445c2cc-0c3a-4f2e-952e-ed2992a6ad22")
 	)
 	(pad "14" thru_hole roundrect
-		(at 0 20.32)
+		(at 0 15.24)
 		(size 5 1.7)
 		(drill 1
 			(offset 1.6 0)
@@ -373,7 +373,7 @@
 		(uuid "927b4f33-0320-45a2-9a4a-f515a5e89f65")
 	)
 	(pad "15" thru_hole roundrect
-		(at 0 17.786556)
+		(at 0 12.706556)
 		(size 5 1.7)
 		(drill 1
 			(offset 1.6 0)
@@ -384,7 +384,7 @@
 		(uuid "573f7498-ce92-4583-abe1-121cfeae3243")
 	)
 	(pad "16" thru_hole roundrect
-		(at 0 15.24)
+		(at 0 10.16)
 		(size 5 1.7)
 		(drill 1
 			(offset 1.6 0)
@@ -395,7 +395,7 @@
 		(uuid "77c1e0d4-cade-44ff-b15e-0d1aa7f161a5")
 	)
 	(pad "17" thru_hole roundrect
-		(at 0 12.7)
+		(at 0 7.62)
 		(size 5 1.7)
 		(drill 1
 			(offset 1.6 0)
@@ -406,7 +406,7 @@
 		(uuid "89ccee2e-071d-4ca3-ad08-7db18c378d50")
 	)
 	(pad "18" thru_hole roundrect
-		(at 0 10.16)
+		(at 0 5.08)
 		(size 5 1.7)
 		(drill 1
 			(offset 1.6 0)
@@ -417,7 +417,7 @@
 		(uuid "afa02631-de2c-453d-af08-c27b39f279be")
 	)
 	(pad "19" thru_hole roundrect
-		(at 0 7.62)
+		(at 0 2.54)
 		(size 5 1.7)
 		(drill 1
 			(offset 1.6 0)
@@ -428,28 +428,6 @@
 		(uuid "1561fc4d-f3a9-4f47-b8db-2e7030d1fbca")
 	)
 	(pad "20" thru_hole roundrect
-		(at 0 5.08)
-		(size 5 1.7)
-		(drill 1
-			(offset 1.6 0)
-		)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.1470588235)
-		(uuid "016a4e61-04da-4367-b53d-42213466014e")
-	)
-	(pad "21" thru_hole roundrect
-		(at 0 2.54)
-		(size 5 1.7)
-		(drill 1
-			(offset 1.6 0)
-		)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(roundrect_rratio 0.1470588235)
-		(uuid "24fdf8fc-527a-4730-9e6d-d80bf00f4ced")
-	)
-	(pad "22" thru_hole roundrect
 		(at 0 0)
 		(size 5 1.7)
 		(drill 1
@@ -458,7 +436,7 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(roundrect_rratio 0.1470588235)
-		(uuid "34fe0a9b-cc11-4c45-904a-60fc374afb08")
+		(uuid "016a4e61-04da-4367-b53d-42213466014e")
 	)
 	(model "${KICAD8_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x24_P2.54mm_Vertical.wrl"
 		(offset
