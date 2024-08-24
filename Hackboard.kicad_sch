@@ -10433,28 +10433,6 @@
 			)
 		)
 	)
-	(global_label "SD_MISO_11"
-		(shape bidirectional)
-		(at 227.33 132.08 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "2e7a5b6f-430e-4647-8c07-18ac00f37fbf")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 227.33 147.6064 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "UART_RX_19"
 		(shape bidirectional)
 		(at 39.37 100.33 180)
@@ -10697,7 +10675,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_32"
+	(global_label "GPIO_29"
 		(shape bidirectional)
 		(at 111.76 45.72 90)
 		(fields_autoplaced yes)
@@ -10715,6 +10693,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_MOSI_10"
+		(shape bidirectional)
+		(at 236.22 125.73 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "4e15770a-a815-41ed-b30f-3f789d31abdb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 236.22 141.2564 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10737,6 +10737,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SD_CS_9"
+		(shape bidirectional)
+		(at 242.57 129.54 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5315b4d4-f7a8-4299-b4a3-9c0439681253")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.57 141.7402 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10983,6 +11005,28 @@
 			)
 		)
 	)
+	(global_label "SD_SCK_22"
+		(shape bidirectional)
+		(at 231.14 128.27 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "714fc4d4-0fde-4a99-93d9-4e1898ef44be")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 231.14 142.9497 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "UART_TX_18"
 		(shape bidirectional)
 		(at 147.32 165.1 0)
@@ -11089,28 +11133,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_MOSI_10"
-		(shape bidirectional)
-		(at 236.22 125.73 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "81b98a78-a46d-45c4-a27d-76d7822d5524")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 236.22 141.2564 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -11775,6 +11797,28 @@
 			)
 		)
 	)
+	(global_label "SD_MISO_11"
+		(shape bidirectional)
+		(at 227.33 132.08 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c59ae5fa-fd8b-4caa-b040-9a9db6ffe8f4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.33 147.6064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWM_25_O"
 		(shape bidirectional)
 		(at 168.91 36.83 270)
@@ -11788,28 +11832,6 @@
 		(uuid "c61fd617-8a30-4937-ba96-6f4f7fc0d2d6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 168.91 50.784 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SD_SCK_31"
-		(shape bidirectional)
-		(at 231.14 128.27 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "cadf79c8-465f-461e-9031-8427add1d701")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.14 142.9497 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12083,28 +12105,6 @@
 			)
 		)
 	)
-	(global_label "SD_CS_9"
-		(shape bidirectional)
-		(at 242.57 129.54 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d9f5006e-e5ea-408c-9324-58f285c7b2d4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 242.57 141.7402 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "PWM_1"
 		(shape bidirectional)
 		(at 129.54 180.34 180)
@@ -12303,7 +12303,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_33"
+	(global_label "GPIO_30"
 		(shape bidirectional)
 		(at 119.38 45.72 90)
 		(fields_autoplaced yes)
@@ -12501,7 +12501,7 @@
 			)
 		)
 	)
-	(global_label "GPIO_34"
+	(global_label "GPIO_31"
 		(shape bidirectional)
 		(at 127 45.72 90)
 		(fields_autoplaced yes)
@@ -15092,6 +15092,73 @@
 			(project "Hackboard"
 				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
 					(reference "C13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 129.54 102.87 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4566ae41-3417-436c-9868-0f31625c489c")
+		(property "Reference" "#PWR023"
+			(at 133.35 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 125.73 102.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 129.54 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eff22fd5-3f8b-4ea9-9f67-20f8af15faa2")
+		)
+		(instances
+			(project "Hackboard"
+				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -18801,73 +18868,6 @@
 			(project "Hackboard"
 				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 129.54 102.87 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc9d0b01-c5c6-4bc9-bd73-c32b72cb871e")
-		(property "Reference" "#PWR023"
-			(at 133.35 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 125.73 102.8699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 129.54 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 129.54 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9125b912-a031-493a-a8b0-1a384aaf8627")
-		)
-		(instances
-			(project "Hackboard"
-				(path "/478098fb-f4b2-4694-bef3-d53baad1e8cf"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
