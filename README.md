@@ -43,8 +43,7 @@ The extra MOSFET and related circuitry on pin 13 does not need to be soldered fo
 
 JP1 and JP2 are jumpers that can be soldered/desoldered to achieve certain functionality
 
-JP1 must be bridged to enable the addressable LED's
-JP2 must be left unbridged if the MOSFET is soldered
+JP1 must be bridged to enable the addressable LED's. JP2 must be left unbridged if the MOSFET is soldered
 
 ### Flashing Arduino Bootloader
 
