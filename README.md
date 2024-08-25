@@ -4,7 +4,7 @@
 
 The Hackboard is a one board fits (almost) all development board with many useful features to ensure it works with all projects! Some of the features can be found below.
 
-![A 3d view of the hackboard](https://raw.githubusercontent.com/AdamTuraj/hackboard/main/Images/3D_View.jpg)
+![A 3d view of the hackboard](https://raw.githubusercontent.com/AdamTuraj/hackboard/main/Images/3D_View.png)
 
 Hackboard has the following features:
 
