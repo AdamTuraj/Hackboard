@@ -27,8 +27,8 @@ Hackboard has the following features:
 - Barrel jack supporting up to 32V at 54W
 - USB C port for flashing and power
 
-[^1]: Only one may be used when an SD card is in use
-[^2]: The bottom right hole moved slightly up due to spacing issues
+[^1]: Only one may be used when an SD card is in use.
+[^2]: The bottom right hole moved slightly up due to spacing issues.
 
 ## Assembly
 
@@ -41,17 +41,17 @@ The extra MOSFET and related circuitry on pin 13 does not need to be soldered fo
 
 ### Jumpers
 
-JP1 and JP2 are jumpers that can be soldered/desoldered to achieve certain functionality
+JP1 and JP2 are jumpers that can be soldered/desoldered to achieve certain functionality.
 
-JP1 must be bridged to enable the addressable LED's. JP2 must be left unbridged if the MOSFET is soldered
+JP1 must be bridged to enable the addressable LED's. JP2 must be left unbridged if the MOSFET is soldered.
 
-### Flashing Arduino Bootloader
+### Work with Arduino
 
 > [!NOTE]
 > You must have an STLink to continue. They can be bought standalone or with a Nucleo board
 
-Further guidance will be updated when I receive the board and can attempt to flash it. For now refer to the [STM32duino wiki](https://github.com/stm32duino/Arduino_Core_STM32/wiki/Getting-Started) on how to get it Arduino compatible
+A more detailed guide will be written up shortly. For now you may use [STM32Duino](https://github.com/stm32duino/Arduino_Core_STM32) to make it work with Arduino.
 
 ## License
 
-Hackclub is licensed under the GNU General Public License. See the full license text in [LICENSE](LICENSE)
+Hackclub is licensed under the GNU General Public License. See the full license text in [LICENSE](LICENSE).
