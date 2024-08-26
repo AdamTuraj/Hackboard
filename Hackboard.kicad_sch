@@ -14278,6 +14278,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "PPTC241LFBN-RC"
+			(at 134.62 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "17"
 			(uuid "ccb13c16-32ed-4313-8a76-463c6089bfcb")
 		)
@@ -14558,7 +14567,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "PPPC022LFBN-RC"
 			(at 119.38 67.31 0)
 			(effects
 				(font
@@ -14628,6 +14637,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 142.24 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PPPC101LFBN-RC"
 			(at 142.24 110.49 0)
 			(effects
 				(font
@@ -16342,6 +16360,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603N100J500CT"
+			(at 15.24 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53753ffe-d24b-433b-919f-486e6fccc4aa")
 		)
@@ -16546,6 +16573,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x20, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 142.24 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "61302011821"
 			(at 142.24 157.48 0)
 			(effects
 				(font
@@ -16858,6 +16894,15 @@
 			)
 		)
 		(property "Description" "Jumper, 2-pole, closed/bridged"
+			(at 163.83 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "PPPC022LFBN-RC"
 			(at 163.83 36.83 0)
 			(effects
 				(font
@@ -18713,6 +18758,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "0603N100J500CT"
+			(at 21.59 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5011cede-ce20-40d8-86c8-b50d50bb4d13")
 		)
@@ -19139,7 +19193,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
 			(at 213.0552 34.29 0)
 			(effects
 				(font
@@ -20036,6 +20090,15 @@
 				(hide yes)
 			)
 		)
+		(property "MPN" "61300811821"
+			(at 134.62 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f1866513-bf2c-4b6d-b729-e2103f4c6d5e")
 		)
@@ -20226,7 +20289,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PMV40UN2R"
+		(property "MPN" "PSMN041-80YLX"
 			(at 158.75 50.8 0)
 			(effects
 				(font
@@ -20776,7 +20839,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "PMV40UN2R"
+		(property "MPN" "PSMN041-80YLX"
 			(at 193.04 48.26 0)
 			(effects
 				(font
@@ -20915,6 +20978,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 196.85 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "ERJ-3EKF1003V"
 			(at 196.85 40.64 0)
 			(effects
 				(font
