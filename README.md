@@ -35,7 +35,7 @@ Hackboard has the following features:
 > [!WARNING]
 > This board CANNOT be assembled through JLCPCB due to many of the parts not being available at LCSC. Alternatives are using different PCB manufacturers or assembling it yourself
 
-The BOM can be found in the production folder or the Digikey list [here](https://www.digikey.ca/en/mylists/list/ZCMK6FII4Q).
+The BOM can be found in the production folder or the Digikey list [here](https://www.digikey.ca/en/mylists/list/BNXJM32ETT).
 
 The extra MOSFET and related circuitry on pin 13 does not need to be soldered for the board to function (hence the DNP).
 
