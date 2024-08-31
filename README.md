@@ -9,8 +9,9 @@ The Hackboard is a one board fits (almost) all development board with many usefu
 Hackboard has the following features:
 
 - 80MHz Cortex M4 Core with 1 Mb of Flash and 128 Kb of SRAM
+- Abilitiy to run on a 9v battery for around **150 HOURS**[^1]
 - 45 GPIO pins
-  - 2 SPI Interfaces[^1]
+  - 2 SPI Interfaces[^2]
   - 1 I2C Interface
   - 1 CAN Interface
   - 1 UART Interface
@@ -19,7 +20,7 @@ Hackboard has the following features:
   - 2 DAC's
   - 1 OPAmp
 - Arduino Uno Shield Compatible
-- Same hole arrangement as Arduino UNO[^2]
+- Same hole arrangement as Arduino UNO[^3]
 - Extended header pads for easy probing
 - Micro SD card slot
 - PWM Addressable MOSFET capable of powering up to 54W
@@ -27,8 +28,9 @@ Hackboard has the following features:
 - Barrel jack supporting up to 32V at 54W
 - USB C port for flashing and power
 
-[^1]: Only one may be used when an SD card is in use.
-[^2]: The bottom right hole moved slightly up due to spacing issues.
+[^1]: This assumes you are running with 0 peripherals connected, and are using a [Duracell 9v battery](https://www.duracell.com/wp-content/uploads/2016/03/MN1604_US_CT1.pdf)
+[^2]: Only one may be used when an SD card is in use.
+[^3]: The bottom right hole moved slightly up due to spacing issues.
 
 ## Assembly
 
