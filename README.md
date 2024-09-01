@@ -7,7 +7,6 @@ The Hackboard is a "one board fits (almost) all" development board with many use
 Running on Arduino or STM32CubeIDE, you can take full advantage of Hackboard due to its low learning curve. On top of all these features, it is super efficient and can easily run off a 9v battery for many hours. Still not interested. Get a larger overview of the features below!
 
 ![A Top 3d view of the hackboard](https://raw.githubusercontent.com/AdamTuraj/hackboard/main/Images/3D_View.png)
-![Bottom 3D View](https://raw.githubusercontent.com/AdamTuraj/Hackboard/main/Images/3D_View_Back.png)
 
 Here's a deeper dive into the features:
 
@@ -73,6 +72,9 @@ Third Layer (Power)
 
 Bottom Layer (Signal / GND)
 ![Bottom PCB Layer](https://raw.githubusercontent.com/AdamTuraj/Hackboard/main/Images/PCB%20Layers%20Preview/Bottom_Layer.png)
+
+Bottom 3D View
+![Bottom 3D View](https://raw.githubusercontent.com/AdamTuraj/Hackboard/main/Images/3D_View_Back.png)
 
 ## License
 
