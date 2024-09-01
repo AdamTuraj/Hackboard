@@ -58,6 +58,9 @@ A more detailed guide will be written up shortly. For now you may use [STM32Duin
 
 ## Images
 
+Schematic
+![Schematic](https://raw.githubusercontent.com/AdamTuraj/Hackboard/main/Images/Schematic.png)
+
 All Layers
 ![All PCB Layers](https://raw.githubusercontent.com/AdamTuraj/Hackboard/main/Images/PCB%20Layers%20Preview/All_Layers.png)
 
