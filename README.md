@@ -2,7 +2,7 @@
 
 **Every hardware hacker needs a development board. So why not make your own overkill one?**
 
-The Hackboard is a one board fits (almost) all development board with many useful features to ensure it works with all projects! Some of the features can be found below.
+The Hackboard is a "one board fits (almost) all" development board with many useful features to ensure it works with all projects! Whether you need to drive a motor, listen through a microphone, play music on a speaker or use various peripherals, the Hackboard has you covered. Running on Arduino or STM32CubeIDE, you can take full advantage of Hackboard due to its low learning curve. On top of all these features, it is super efficient and can easily run off a 9v battery for many hours. Still not interested. Get a larger overview of the features below!
 
 ![A 3d view of the hackboard](https://raw.githubusercontent.com/AdamTuraj/hackboard/main/Images/3D_View.png)
 
