@@ -82,4 +82,4 @@ Bottom 3D View
 
 ## License
 
-Hackclub is licensed under the GNU General Public License. See the full license text in [LICENSE](LICENSE).
+Hackboard is licensed under the GNU General Public License. See the full license text in [LICENSE](LICENSE).
